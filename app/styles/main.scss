@@ -1,0 +1,75 @@
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700|Sancreek|Oswald:400,300,700|PT+Serif:400,700,400italic,700italic);
+
+$slab: 'Roboto Slab', serif;
+$sans: 'Source Sans Pro', sans-serif;
+$sancreek: 'Sancreek', cursive;
+$oswald: 'Oswald', sans-serif;
+$serif: 'PT Serif', serif;
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body,html {
+  padding: 0;
+  background-color:rgb(23,23,23);
+  color:rgba(255,255,255,1);
+  background:url('../images/15354148405_b631dd033d_o_bw.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family:$serif;
+  font-size: 1.1em;
+}
+a,a:visited{
+  color:rgba(255,255,255,1);
+}
+.upcase{
+  text-transform:uppercase;
+}
+.sancreek{
+  font-family:$sancreek;
+}
+.slab{
+  font-family: $slab;
+}
+.oswald{
+  font-family:$oswald;
+}
+.outlaw,.country{
+  display:block;
+  font-family:$sancreek;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:4.6em;
+  line-height:5rem;
+}
+.outlaw{
+
+}
+.country{
+
+}
+
+.footer {
+
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
